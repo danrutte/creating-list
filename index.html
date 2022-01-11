@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Seznam</h1>
+            <ol id="seznam">
+                <li>seznam</li>
+                </ol>
+        </main>
+        <script>
+            function myFunction() {
+            var a = document.createElement("p");
+            var b = document.createTextNode("Zelenina");
+            a.appendChild(b);
+            document.body.appendChild(a);
+            }
+        </script>
+        <button onclick="myFunction">Objednej zeleninu</button>
+    </body>
+</html>
